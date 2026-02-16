@@ -15,7 +15,6 @@ jobs:
       -name: Récupération du code
        uses: action/checkout@v3
 
-
       -name: Vérifiaction syntaxe HTML
        uses: Cyb3r-Jak3/html5validator-action@v7.2.0
        with:
